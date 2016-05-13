@@ -2,7 +2,7 @@
 ### For a trait in pheno, perform backward step-wise selection by P-value of
 ### the SNPs with P<0.15 in the univariate analysis using the genotype data provided in geno
 ###
-### *** inputs ***
+### *** input ***
 ### pheno: matrix of trait values
 ###     rows: samples
 ###     columns: traits
