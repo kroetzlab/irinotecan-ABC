@@ -1,7 +1,7 @@
 ##### Univariate analysis
 ### For a trait in pheno, perform linear regression using the genotype data provided in geno
 ###
-### *** inputs ***
+### *** input ***
 ### pheno: matrix of trait values
 ###     rows: samples
 ###     columns: traits, with colnames(pheno) being names of the traits
@@ -14,7 +14,6 @@
 ###     rows: markers
 ###     columns: "snp", "Estimate", "Std. Error", "t value", "P"
 ### top: subset of results matrix, listing only markers for which P<0.15
-### toplist: vector of SNP IDs from top matrix (to use in multivariate analysis)
 
 snplist <- names(geno)[1:length(names(geno))]
 out <- lapply(snplist, function(x) {
